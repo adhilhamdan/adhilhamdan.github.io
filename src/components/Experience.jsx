@@ -28,13 +28,14 @@ const EXPERIENCE = [
     ],
   },
   {
-    role: 'Freelance Software Developer',
-    company: 'Ninjacart, Remote',
-    period: 'Nov 2024 – Jan 2025',
+    role: 'Operations Associate Intern',
+    company: 'Ninjacart, Bengaluru',
+    period: 'Jan 2025 – Mar 2025',
     type: 'work',
-    tags: ['Web Dev', 'Freelance'],
+    tags: ['Operations', 'Supply Chain', 'Data Analysis'],
     points: [
-      'Developed client-specific web solutions on a contract basis',
+      'Optimized supply chain operations and inventory workflows by analysing large-scale datasets to improve fulfilment efficiency.',
+      'Collaborated with Product, Analytics, and Operations teams using data-driven decision-making to identify and resolve bottlenecks.',
     ],
   },
   {
