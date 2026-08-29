@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #00D4FF #0A0F1E;
+  }
+
+  html::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  html::-webkit-scrollbar-track {
+    background: #0A0F1E;
+  }
+
+  html::-webkit-scrollbar-thumb {
+    background-color: #00D4FF;
+    border-radius: 2px;
+  }
+
+  body {
+    background-color: #0A0F1E;
+    color: #E8EDF5;
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@layer components {
+  .section-label {
+    @apply font-mono text-xs tracking-[0.3em] text-cyan-400 uppercase mb-3;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-semibold text-slate-light leading-tight;
+  }
+
+  .card {
+    @apply bg-navy-600 border border-navy-500 rounded-xl p-6 transition-all duration-300;
+  }
+
+  .card:hover {
+    @apply border-cyan-400/40 shadow-lg shadow-cyan-400/5;
+    transform: translateY(-2px);
+  }
+
+  .tag {
+    @apply font-mono text-xs px-2.5 py-1 rounded-md bg-navy-700 text-cyan-400 border border-navy-500;
+  }
+
+  .nav-link {
+    @apply font-mono text-sm text-slate-muted hover:text-cyan-400 transition-colors duration-200;
+  }
+
+  .btn-primary {
+    @apply font-mono text-sm px-5 py-2.5 rounded-lg bg-cyan-400 text-navy-900 font-semibold hover:bg-cyan-300 transition-all duration-200;
+  }
+
+  .btn-outline {
+    @apply font-mono text-sm px-5 py-2.5 rounded-lg border border-cyan-400/50 text-cyan-400 hover:border-cyan-400 hover:bg-cyan-400/10 transition-all duration-200;
+  }
+}
+
+/* Circuit trace SVG animation */
+.circuit-path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: drawLine 3s ease forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes drawLine {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Gradient glow */
+.glow-cyan {
+  box-shadow: 0 0 30px rgba(0, 212, 255, 0.15);
+}
+
+/* Selection color */
+::selection {
+  background-color: rgba(0, 212, 255, 0.2);
+  color: #E8EDF5;
+}
