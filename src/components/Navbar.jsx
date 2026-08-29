@@ -39,14 +39,24 @@ export default function Navbar({ scrolled }) {
         </ul>
 
         {/* Resume CTA */}
-        <a
-          href="/resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hidden md:block btn-outline text-xs py-2 px-4"
-        >
-          resume.pdf
-        </a>
+        <div className="hidden md:flex items-center gap-2">
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-outline text-xs py-2 px-4"
+          >
+            resume.pdf
+          </a>
+          <a
+            href="/ielts.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-outline text-xs py-2 px-4"
+          >
+            IELTS
+          </a>
+        </div>
 
         {/* Mobile toggle */}
         <button
@@ -81,6 +91,17 @@ export default function Navbar({ scrolled }) {
                 className="btn-outline inline-block text-xs"
               >
                 resume.pdf
+              </a>
+            </li>
+            <li>
+              <a
+                href="/ielts.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-outline inline-block text-xs"
+                onClick={() => setOpen(false)}
+              >
+                IELTS
               </a>
             </li>
           </ul>
