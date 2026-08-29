@@ -138,7 +138,7 @@ export default function Experience() {
           <p className="section-label">03 / experience</p>
           <h2 className="section-title">
             Where I've<br />
-            <span className="text-cyan-400">worked.</span>
+            <span className="text-cyan-400">worked & trained.</span>
           </h2>
         </div>
 
