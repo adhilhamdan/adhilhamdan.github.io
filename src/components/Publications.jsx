@@ -11,17 +11,7 @@ const PUBLICATIONS = [
     tags: ['Image Processing', 'Fuzzy Logic', 'DCP', 'MATLAB'],
     description:
       'A novel dehazing algorithm combining Dark Channel Prior with adaptive fuzzy logic parameter tuning. Outperforms standard DCP on SSIM and PSNR metrics across hazy benchmark datasets.',
-    link: null,
-  },
-  {
-    title: 'Dual-Layer Image Security Using Chaotic Maps',
-    venue: 'ICSSIC 2024 — International Conference',
-    type: 'Conference',
-    year: '2024',
-    tags: ['Image Security', 'Chaotic Maps', 'Encryption', 'MATLAB'],
-    description:
-      'Two-stage encryption scheme using logistic and Henon chaotic maps for pixel-level scrambling and intensity transformation. Demonstrates high key sensitivity and strong resistance to statistical attacks.',
-    link: null,
+    link: 'https://link.springer.com/chapter/10.1007/978-3-031-99939-0_24',
   },
 ]
 
