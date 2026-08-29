@@ -16,15 +16,15 @@ const EXPERIENCE = [
     ],
   },
   {
-    role: 'Physical Design Trainee',
+    role: 'Physical Design Training Program',
     company: 'MavenSilicon, Bengaluru',
     period: 'Aug 2025 – Feb 2026',
-    type: 'work',
+    type: 'training',
     tags: ['Synopsys Fusion Compiler', 'STA', 'PnR', 'CTS'],
     points: [
-      'End-to-end ASIC PD flow: floorplanning, power planning, placement, CTS, routing',
-      'Static Timing Analysis and timing closure using PrimeTime',
-      'Independent project: 1×3 Router full PD implementation',
+      'Completed structured ASIC Physical Design course covering end-to-end PD flow — floorplanning, power planning, placement, CTS, and routing.',
+      'Static Timing Analysis and timing closure using PrimeTime.',
+      'Independent project: full PD implementation of a 1×3 Router.',
     ],
   },
   {
