@@ -111,6 +111,19 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 text-center max-w-3xl">
+        {/* Profile photo */}
+        <div className="flex justify-center mb-8 opacity-0 animate-[fadeUp_0.6s_ease_0.1s_forwards]">
+          <div className="relative">
+            <div className="w-28 h-28 rounded-full overflow-hidden border-2 border-cyan-400/40 shadow-lg shadow-cyan-400/10">
+              <img
+                src="/adhil.jpg"
+                alt="Adhil Hamdan"
+                className="w-full h-full object-cover object-top"
+              />
+            </div>
+            <div className="absolute -bottom-1 -right-1 w-5 h-5 rounded-full bg-green-400 border-2 border-navy-900" title="Open to opportunities" />
+          </div>
+        </div>
         {/* Eyebrow */}
         <p className="font-mono text-cyan-400 text-sm tracking-[0.25em] mb-6 opacity-0 animate-[fadeUp_0.6s_ease_0.2s_forwards]">
           &gt; Hello, World. I'm
