@@ -68,7 +68,7 @@ export default function About() {
                 {[
                   { val: '7.93', label: 'CGPA' },
                   { val: '5+', label: 'Projects' },
-                  { val: '1', label: 'Publication' },
+                  { val: '7.0', label: 'IELTS Band' },
                 ].map((s) => (
                   <div key={s.label} className="text-center">
                     <div className="font-mono text-2xl font-bold text-cyan-400">{s.val}</div>
