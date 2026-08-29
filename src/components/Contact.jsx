@@ -22,7 +22,7 @@ export default function Contact() {
           ref={ref}
           className={`transition-all duration-700 ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
         >
-          <p className="section-label">06 / contact</p>
+          <p className="section-label">07 / contact</p>
           <h2 className="section-title mb-4">
             Let's<br />
             <span className="text-cyan-400">connect.</span>
