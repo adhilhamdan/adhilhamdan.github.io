@@ -46,7 +46,7 @@ export default function About() {
                   currently working as an Associate VLSI Engineer at{' '}
                   <span className="text-slate-light">Krivya Semicon</span>, contributing to DFT
                   workflows at SanDisk — covering IP wrapper generation, pattern compilation,
-                  and simulation using Tessent and SpyGlass.
+                  and simulation using Xcelium; Tessent for DFT RTL debugging.
                 </p>
                 <p>
                   Before that, I completed Physical Design training at{' '}
