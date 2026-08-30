@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Github, ExternalLink, GitBranch, Clock, Tag } from 'lucide-react'
+import { Github, ExternalLink, GitBranch } from 'lucide-react'
 import { useInView } from '../hooks/useInView'
 
 const REPO_SLUGS = [
@@ -136,12 +136,6 @@ function ProjectCard({ repo, meta, index }) {
             </span>
           )}
         </div>
-        {repo.pushed_at && (
-          <span className="flex items-center gap-1 text-xs text-slate-muted font-mono">
-            <Clock size={11} />
-            {timeAgo(repo.pushed_at)}
-          </span>
-        )}
       </div>
     </div>
   )
