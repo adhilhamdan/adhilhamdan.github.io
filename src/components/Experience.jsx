@@ -8,11 +8,11 @@ const EXPERIENCE = [
     company: 'Krivya Semicon (at SanDisk)',
     period: 'Feb 2026 – Present',
     type: 'work',
-    tags: ['Tessent', 'Spyglass DFT', 'MBIST', 'IJTAG', 'ATPG'],
+    tags: ['Xcelium', 'Tessent', 'SpyGlass', 'Ascent Lint', 'Conformal LEC', 'Formality'],
     points: [
-      'IP wrapper generation and IJTAG network integration for hierarchical DFT',
-      'MBIST insertion and ATPG using Siemens Tessent',
-      'Lint and DFT rule checks with Synopsys SpyGlass',
+      'DFT RTL generation including IP wrapper creation, TDR development, TAP controller integration, padmuxing, and clock monitors for JTAG architecture.',
+      'Pattern compilation and simulation using Xcelium; Tessent for DFT RTL debugging.',
+      'DFT RTL lint using Ascent Lint; pre-DFT clock and reset checks using SpyGlass; LEC for JTAG TAP and padmuxing sign-off using Conformal and Formality.',
     ],
   },
   {
