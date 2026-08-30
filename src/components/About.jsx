@@ -45,8 +45,8 @@ export default function About() {
                   <span className="text-slate-light">PSG College of Technology</span> (NIRF Rank 67),
                   currently working as an Associate VLSI Engineer at{' '}
                   <span className="text-slate-light">Krivya Semicon</span>, contributing to DFT
-                  workflows at SanDisk — covering IP wrapper generation, IJTAG, MBIST insertion,
-                  and ATPG using Tessent and Spyglass.
+                  workflows at SanDisk — covering IP wrapper generation, pattern compilation,
+                  and simulation using Tessent and SpyGlass.
                 </p>
                 <p>
                   Before that, I completed Physical Design training at{' '}
