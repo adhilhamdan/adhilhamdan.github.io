@@ -3,8 +3,9 @@ import { Github, Linkedin, Mail, ArrowDown } from 'lucide-react'
 
 const TITLES = [
   'VLSI Engineer',
-  'DFT Specialist',
-  'Hardware Designer',
+  'DFT Engineer',
+  'Physical Design Engineer',
+  'SLM Enthusiast',
   'MS Applicant',
 ]
 
