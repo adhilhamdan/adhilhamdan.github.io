@@ -12,7 +12,7 @@ const EXPERIENCE = [
     points: [
       'DFT RTL generation including IP wrapper creation, TDR development, TAP controller integration, padmuxing, and clock monitors for JTAG architecture.',
       'Pattern compilation and simulation using Xcelium; Tessent for DFT RTL debugging.',
-      'DFT RTL lint using Ascent Lint; pre-DFT clock and reset checks using SpyGlass; LEC for JTAG TAP and padmuxing sign-off using Conformal and Formality.',
+      'DFT RTL lint using Ascent Lint; pre-DFT clock and reset checks using SpyGlass; LEC for JTAG TAP and padmuxing sign-off using Conformal.',
     ],
   },
   {
