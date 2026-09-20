@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Github, ExternalLink, GitBranch } from 'lucide-react'
+import { Github, ExternalLink } from 'lucide-react'
 import { useInView } from '../hooks/useInView'
 
 const REPO_SLUGS = [
@@ -8,6 +8,7 @@ const REPO_SLUGS = [
   'geofencing-speed-limiter',
   'dual-layer-image-security',
   'adaptive-dcp-image-enhancement',
+  'Router_1x3-Physical-design',
 ]
 
 const REPO_META = {
@@ -40,6 +41,12 @@ const REPO_META = {
     domain: 'Image Processing',
     highlight: 'Dark Channel Prior dehazing enhanced with fuzzy logic for adaptive parameter tuning. Results published in Springer-indexed journal.',
     color: '#FB923C',
+  },
+  'Router_1x3-Physical-design': {
+    display: '1×3 Router Physical Design',
+    domain: 'VLSI Physical Design / ASIC Implementation',
+    highlight: 'Complete ASIC backend flow for a packet-based 1×3 router, covering Verilog RTL, synthesis, floorplanning, placement, CTS, routing, and signoff using Tcl automation and the SAED 32nm PDK.',
+    color: '#38BDF8',
   },
 }
 
@@ -228,23 +235,6 @@ export default function Projects() {
                   index={i}
                 />
               ))}
-        </div>
-
-        {/* Coming soon */}
-        <div className="mt-5 grid md:grid-cols-2 gap-5">
-          {[
-            { name: '1×3 Router Physical Design', domain: 'VLSI PD', tools: 'Synopsys Fusion Compiler' },
-            { name: '32-bit Vedic Multiplier PD', domain: 'VLSI PD', tools: 'OpenROAD, Nangate45' },
-          ].map((p) => (
-            <div key={p.name} className="card border-dashed border-navy-500 opacity-50">
-              <div className="flex items-center gap-2 mb-2">
-                <GitBranch size={14} className="text-cyan-400/50" />
-                <span className="font-mono text-xs text-cyan-400/50 tracking-wider">COMING SOON</span>
-              </div>
-              <h3 className="font-mono text-sm font-semibold text-slate-light/60">{p.name}</h3>
-              <p className="text-xs text-slate-muted mt-1">{p.domain} · {p.tools}</p>
-            </div>
-          ))}
         </div>
 
         <div className="mt-6 text-center md:hidden">
